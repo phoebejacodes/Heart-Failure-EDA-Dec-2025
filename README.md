@@ -1,6 +1,17 @@
 # Heart Failure Prediction Analysis
 This repository contains a Jupyter Notebook that performs an analysis of Heart Failure Prediction Dataset using Python and libraries such as Pandas, Numpy, Seaborn, and Matplotlib. The dataset used in this analysis is retrieved from https://www.kaggle.com/fedesoriano/heart-failure-prediction
 
+## Key Questions Answered:
+How does the prevalence of heart disease vary across age groups and between sexes?
+
+Which clinical measurements (RestingBP, Cholesterol, MaxHR, Oldpeak) show the strongest differences between heart-disease and non–heart-disease patients?
+
+Do specific chest-pain types or ECG patterns correspond to higher risk levels?
+
+Does exercise-induced angina and ST-slope behavior meaningfully separate high-risk and low-risk patients?
+
+Are there interactions between features (e.g., age × sex, MaxHR × ExerciseAngina) that highlight distinct subgroups of risk?
+
 ## Conclusion 
 This exploratory analysis reveals clear and clinically consistent patterns in the factors associated with heart disease. Demographic variables such as age and sex exhibit strong relationships with the outcome: heart disease is more common among older individuals and is significantly more prevalent in males. Symptom-related features—particularly ChestPainType, ExerciseAngina, and ST_Slope—demonstrate the strongest categorical separation between patients with and without heart disease, marking them as meaningful indicators of cardiovascular stress and risk.
 
@@ -9,6 +20,7 @@ Among numerical variables, Oldpeak and MaxHR show the most substantial differenc
 Multivariate patterns reinforce the individual findings: combinations such as older males, patients with exercise-induced angina, and those displaying flat/down ST slopes consistently form higher-risk subgroups. These interactions suggest that heart-disease likelihood increases not through a single feature, but through the convergence of age, symptoms, and cardiac-stress indicators.
 
 Overall, the dataset presents coherent and interpretable relationships. The insights gained offer a clear foundation for future predictive modeling or targeted clinical analysis.
+
 
 
 ## Dataset Context
